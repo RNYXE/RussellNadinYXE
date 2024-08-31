@@ -32,7 +32,7 @@ header::before {
     display: block;
     width: 350px; /* Ensure the image scales to 350px wide */
     height: auto; /* Maintain aspect ratio */
-    background: url('header.png') no-repeat center;
+    background: url('header.jpg') no-repeat center;
     background-size: contain; /* Ensures the entire image is visible */
     margin: 0 auto;
 }
