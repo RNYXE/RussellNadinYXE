@@ -88,6 +88,7 @@ p {
     line-height: 1.6; /* Ensures good readability */
     margin-bottom: 20px; /* Adds space after each paragraph */
     padding-bottom: 20px;
+        padding-top: 20px;
 }
 strong {
     display: inline-block; /* Allows padding to work properly */
@@ -105,6 +106,7 @@ img {
     height: auto; /* Maintains aspect ratio */
     margin: 20px auto 0 auto; /* Centers the image and adds 20px padding at the top */
     padding-top: 20px; /* Adds 20px of padding above the image */
+        padding-bottom: 20px;
 }
 
 
@@ -136,10 +138,14 @@ body::before {
 a {
     color: #2f4f2f; /* Dark leaf green */
     text-decoration: underline;
+        padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 a:hover {
     text-decoration: none; /* Optional: Removes underline on hover if you prefer */
+        padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .contact-links a {
