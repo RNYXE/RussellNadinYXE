@@ -110,6 +110,7 @@ img {
 a {
     text-decoration: underline;
     color: #000000;
+        padding-bottom: 20px; /* Adds 20px of padding below the link */
 }
 
 /* Responsive Background */
