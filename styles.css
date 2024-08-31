@@ -98,7 +98,7 @@ strong {
 
 img {
     display: block;
-    width: 310px; /* Fixes the image width to 310px to account for the padding */
+    width: 350px; /* Fixes the image width to 310px to account for the padding */
     height: auto; /* Maintains aspect ratio */
     margin: 20px auto; /* Centers the image and adds 20px margin all around */
     padding: 20px; /* Adds 20px padding inside the image border */
