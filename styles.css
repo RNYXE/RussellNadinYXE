@@ -12,7 +12,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #000000;
-    padding-top: 220px; /* Adjust this value if needed based on header size */
     line-height: 1.6;
 }
 
@@ -71,7 +70,7 @@ h1 {
     font-size: 24pt;
     font-weight: 700; /* Roboto Bold */
     color: #2f4f2f; /* Dark leaf green */
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 p, .date {
@@ -81,6 +80,7 @@ p {
     color: #000000; /* Black text */
     line-height: 1.6; /* Ensures good readability */
     margin-bottom: 20px; /* Adds space after each paragraph */
+    padding-bottom: 20px;
 }
 strong {
     display: inline-block; /* Allows padding to work properly */
@@ -111,6 +111,7 @@ a {
     text-decoration: underline;
     color: #000000;
         padding-bottom: 20px; /* Adds 20px of padding below the link */
+    margin-bottom: 20px
 }
 
 /* Responsive Background */
