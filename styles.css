@@ -66,10 +66,18 @@ h1 {
 }
 
 p, .date {
+p {
     font-size: 14pt;
     font-weight: 500; /* Roboto Medium */
     color: #000000; /* Black text */
+    line-height: 1.6; /* Ensures good readability */
+    margin-bottom: 20px; /* Adds space after each paragraph */
 }
+strong {
+    font-weight: bold;
+    color: #2f4f2f; /* Dark leaf green */
+}
+
 
 /* Image Styles */
 img {
@@ -111,3 +119,14 @@ a:hover {
     text-decoration: none; /* Optional: Removes underline on hover if you prefer */
 }
 
+.contact-links a {
+    color: #2f4f2f; /* Dark leaf green */
+    text-decoration: underline;
+    font-weight: bold; /* Makes the links stand out */
+    display: block; /* Ensures each link appears on a new line */
+    margin-bottom: 10px; /* Adds space between each link */
+}
+
+.contact-links a:hover {
+    text-decoration: none; /* Optional: Removes underline on hover */
+}
