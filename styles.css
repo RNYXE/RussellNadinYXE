@@ -83,14 +83,19 @@ p {
     margin-bottom: 20px; /* Adds space after each paragraph */
 }
 strong {
-    font-weight: bold;
-    color: #2f4f2f; /* Dark leaf green */
+    display: inline-block; /* Allows padding to work properly */
+    padding-top: 20px; /* Adds 20px of padding above the <strong> element */
+    padding-bottom: 20px; /* Adds 20px of padding below the <strong> element */
+    font-size: 14pt; /* Match the font size of the <p> element */
+    font-weight: bold; /* Match the font weight of the <h1> element */
+    color: #2f4f2f; /* If you want the same color as <h1> */
 }
+
 
 
 img {
     display: block;
-    max-width: 350px; /* Set the width to 350px */
+    width: 350px; /* Set the width to 350px */
     height: auto; /* This ensures that the aspect ratio is maintained */
     margin: 20px auto; /* Centers the image */
 }
