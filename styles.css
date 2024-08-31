@@ -24,7 +24,7 @@ header {
     margin: 0 auto;
     text-align: center;
     color: white;
-    padding-top: 80px; /* Adjust padding to center the text with a 10px gap */
+    padding-top: 10px; /* Adjust padding to center the text with a 10px gap */
 }
 
 header::before {
@@ -40,8 +40,8 @@ header::before {
 
 header h1 {
     margin: 0;
-    font-size: 29pt; /* 5pt larger than the 24pt h1 in content */
-    font-weight: bold;
+    font-size: 27pt; /* 5pt larger than the 24pt h1 in content */
+    font-weight: 700;
     color: #2f4f2f; /* Dark leaf green color */
     margin-bottom: 10px; /* Creates the 10px gap between text and the image */
 }
