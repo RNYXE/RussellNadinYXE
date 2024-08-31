@@ -1,0 +1,165 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500;800&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #0b2e45;
+    color: #ffffff;
+    padding-top: 220px; /* Leaves space for the pinned header */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    height: 226px;
+    background: url('header.png') no-repeat center;
+    background-size: cover;
+    z-index: 10;
+}
+
+/* Background Scaling */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0b2e45;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Facebook Button */
+#facebook-btn {
+    position: fixed;
+    top: 15px;
+    left: calc(50% + 135px); /* 162.5px right from the center */
+    width: 25px;
+    height: 25px;
+    background: url('facebook-icon.png') no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 30; 
+}
+
+/* Post Content */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+p, .date {
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+/* Embedded YouTube Video */
+.video-embed {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* Jump Links Styles */
+.jump-links {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.jump-links a {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.jump-links a:hover {
+    text-decoration: none; /* Optional: Removes underline on hover for better visibility */
+}
+
+
+/* Floating Donate Button */
+#donate-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 375px;
+    background-color: #0b2e45;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid #ffffff; /* White border on the floating banner */
+    z-index: 20;
+}
+
+#donate-btn {
+    background-color: #76cb00;
+    color: #0b2e45;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: no border;
+}
+
+#donate-msg {
+    margin-left: 10px;
+}
+
+/* Donate Banner */
+#donate-banner {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0b2e45;
+    padding: 20px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    z-index: 20;
+    text-align: center;
+}
+
+/* Responsive Background */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0b2e45;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+}
