@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Jennifer Barrett for Saskatoon Public School Board Trustee in Ward 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="top">
+    <!-- Header -->
+    <header></header>
+    <!-- Facebook Button -->
+<div id="facebook-btn" onclick="window.location.href='https://www.facebook.com/jennifer.barrett.10'"></div>
+
+
+    <!-- Main Content Container -->
+    <div class="container">
+        <!-- Example Post -->
+        <article id="post1">
+            <h1>Jennifer Barrett Running for Saskatoon Public School Board Trustee in Ward 1</h1>
+            <p class="date">August 19, 2024</p>
+            <div class="video-embed">
+                <!-- Embed a YouTube video here -->
+                <iframe width="315" height="560" src="https://youtube.com/embed/QCZb0-iW0g4?feature=share" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p>I'm excited to announce that I'm running for Saskatoon Public School Board Trustee in Ward 1! My priorities are open communication, a safety first approach, and hearing from you about your concerns. Please follow me here so that we can connect on educational issues that are important to you. In the coming weeks I will be posting about things I've learned from attending school board meetings. I'm also open to presenting your concerns at upcoming school board meetings.</p>
+
+            <!-- Jump Links -->
+            <div class="jump-links">
+                <a href="#post1">First</a>
+                <a href="#post1">Previous</a>
+                <a href="#">Next</a>
+                <a href="#top">Top of Page</a>
+            </div>
+        </article>
+    </div>
+
+    <!-- Floating Donate Button -->
+    <div id="donate-container">
+        <button id="donate-btn">DONATE</button>
+        <span id="donate-msg">Thank you for your generous donation!</span>
+    </div>
+
+    <!-- Donate Banner -->
+    <div id="donate-banner">
+        Please send an e-transfer to jensawesomeshow@gmail.com and email me with your details for the receipt.
+    </div>
+
+    <!-- JavaScript for Donate Button -->
+    <script>
+        document.getElementById('donate-btn').addEventListener('click', function () {
+            const banner = document.getElementById('donate-banner');
+            banner.style.display = banner.style.display === 'none' ? 'block' : 'none';
+        });
+    </script>
+</body>
+
+</html>
