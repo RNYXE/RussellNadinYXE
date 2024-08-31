@@ -80,15 +80,12 @@ h1 {
     padding-top: 20px;
 }
 
-p, .date {
 p {
     font-size: 14pt;
     font-weight: 500; /* Roboto Medium */
     color: #000000; /* Black text */
     line-height: 1.6; /* Ensures good readability */
     margin-bottom: 20px; /* Adds space after each paragraph */
-    padding-bottom: 20px;
-        padding-top: 20px;
 }
 strong {
     display: inline-block; /* Allows padding to work properly */
@@ -101,12 +98,12 @@ strong {
 
 img {
     display: block;
-    max-width: 100%; /* Ensures image does not exceed container width */
-    width: 350px; /* Fixes the image width to 350px */
+    width: 310px; /* Fixes the image width to 310px to account for the padding */
     height: auto; /* Maintains aspect ratio */
-    margin: 20px auto 0 auto; /* Centers the image and adds 20px padding at the top */
-    padding-top: 20px; /* Adds 20px of padding above the image */
-        padding-bottom: 20px;
+    margin: 20px auto; /* Centers the image and adds 20px margin all around */
+    padding: 20px; /* Adds 20px padding inside the image border */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+    background-color: #ffffff; /* Ensures the padding area around the image is white */
 }
 
 
@@ -115,11 +112,12 @@ img {
     margin: 20px 0;
 }
 
+
 a {
     text-decoration: underline;
-    color: #000000;
-        padding-bottom: 20px; /* Adds 20px of padding below the link */
-    margin-bottom: 20px
+    color: #2f4f2f; /* Dark leaf green */
+    display: block; /* Ensures each link appears on a new line */
+    margin-bottom: 20px; /* Adds 20px margin below each link */
 }
 
 /* Responsive Background */
@@ -134,18 +132,6 @@ body::before {
     z-index: -1;
     background-size: cover;
     background-attachment: fixed;
-}
-a {
-    color: #2f4f2f; /* Dark leaf green */
-    text-decoration: underline;
-        padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-a:hover {
-    text-decoration: none; /* Optional: Removes underline on hover if you prefer */
-        padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .contact-links a {
