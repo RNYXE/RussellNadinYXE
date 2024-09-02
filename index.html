@@ -200,11 +200,14 @@
 
     </div>
   </div>
-<!-- Floating Donate Banner -->
+
+    <!-- Floating Donate Banner -->
 <div id="donate-container">
     <div id="donate-text">I want to</div>
-    <button id="donate-btn">Donate</button>
-    <button id="lawn-sign-btn">Get a lawn sign</button>
+    <div class="button-container">
+        <button id="donate-btn">Donate</button>
+        <button id="lawn-sign-btn">Get a lawn sign</button>
+    </div>
 </div>
 
 <!-- Pop-up Window for Donate -->
@@ -223,17 +226,21 @@
     </div>
 </div>
 
-// Function to show popup
+
+
+    
 function showPopup(popupId) {
     document.getElementById(popupId).style.display = 'block';
 }
 
-// Function to close popup
+
+    
 function closePopup(popupId) {
     document.getElementById(popupId).style.display = 'none';
 }
 
-// Function to copy email address to clipboard
+
+    
 function copyEmail() {
     const email = 'russellnadin@gmail.com';
     navigator.clipboard.writeText(email).then(() => {
@@ -241,7 +248,8 @@ function copyEmail() {
     });
 }
 
-// Add event listeners to buttons
+
+    
 document.getElementById('donate-btn').addEventListener('click', function() {
     showPopup('donate-popup');
 });
