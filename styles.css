@@ -242,13 +242,13 @@ body::before {
 
 .close {
     position: absolute;
-    top: 5px; /* Adds 20px space from the top */
-    right: 5px; /* Adds 20px space from the right */
+    top: 3px; /* Adds 20px space from the top */
+    right: 3px; /* Adds 20px space from the right */
     cursor: pointer;
     font-size: 8pt;
     font-weight: 500;
     border: 2px solid #ffffff; /* 1px white border to make it obvious as a button */
-    padding: 5px 10px; /* Adds some padding to make it look like a button */
+    padding: 2px 3px; /* Adds some padding to make it look like a button */
     color: #ffffff; /* Ensure text color is white */
     background-color: transparent; /* Ensure background is transparent */
     margin: 0; /* Remove margin to avoid unwanted spacing */
