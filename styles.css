@@ -80,7 +80,13 @@ h1 {
     color: #2f4f2f; /* Dark leaf green */
     padding-top: 20px;
 }
-
+li {
+    font-size: 14pt;
+    font-weight: 500; /* Roboto Medium */
+    color: #000000; /* Black text */
+    line-height: 1.6; /* Ensures good readability */
+    margin-bottom: 20px; /* Adds space after each paragraph */
+}
 p {
     font-size: 14pt;
     font-weight: 500; /* Roboto Medium */
@@ -153,7 +159,7 @@ body::before {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 375px;
+    width: 350px;
     background-color: #fe9500; /* Updated background color */
     color: #ffffff;
     text-align: center;
@@ -229,7 +235,7 @@ body::before {
     right: 5px; /* Adds 20px space from the right */
     cursor: pointer;
     font-size: 8pt;
-    font-weight: bold;
+    font-weight: 500;
     border: 2px solid #ffffff; /* 1px white border to make it obvious as a button */
     padding: 5px 10px; /* Adds some padding to make it look like a button */
     color: #ffffff; /* Ensure text color is white */
