@@ -186,6 +186,7 @@ body::before {
     background-color: #2c6d21; /* Slightly darker on hover */
 }
 
+/* Popup Styles */
 .popup {
     display: none; /* Hidden by default */
     position: fixed;
@@ -193,32 +194,42 @@ body::before {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #3f8e2a; /* Background color for the popup */
-    color: #ffffff;
+    color: #ffffff; /* Set text color to white */
     padding: 20px;
     border: 2px solid #ffffff; /* 2px white border */
     z-index: 30;
     width: 300px; /* Adjust width as needed */
-    text-align: center;
+    text-align: left; /* Left justify the text */
 }
 
 .popup-content {
     position: relative;
+    color: #ffffff; /* Ensure all text inside popup is white */
+}
+
+.popup-content a {
+    color: #ffffff; /* Ensure links are also white */
+    text-decoration: underline; /* Keep links underlined */
 }
 
 .close {
     position: absolute;
-    top: 5px;
-    right: 10px;
+    top: 20px; /* Adds 20px space from the top */
+    right: 20px; /* Adds 20px space from the right */
     cursor: pointer;
     font-weight: bold;
+    border: 1px solid #ffffff; /* 1px white border to make it obvious as a button */
+    padding: 5px 10px; /* Adds some padding to make it look like a button */
+    color: #ffffff; /* Ensure text color is white */
+    background-color: transparent; /* Ensure background is transparent */
 }
 
 #copy-email {
     cursor: pointer;
     text-decoration: underline;
+    color: #ffffff; /* Ensure the email text is white */
 }
 
 #copy-email:hover {
     color: #c7e0b0; /* Lighter shade on hover */
 }
-
