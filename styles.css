@@ -145,3 +145,78 @@ body::before {
 .contact-links a:hover {
     text-decoration: none; /* Optional: Removes underline on hover */
 }
+
+/* Floating Donate Banner with Vertically Centered Button */
+#donate-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 375px;
+    background-color: #fe9500; /* Updated background color */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0; /* Added some padding for better spacing */
+    border: 1px solid #ffffff; /* White border on the floating banner */
+    display: flex;
+    flex-direction: column; /* Align text and buttons vertically */
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+#donate-text {
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between the text and buttons */
+}
+
+#donate-btn, #lawn-sign-btn {
+    background-color: #3f8e2a; /* Updated button color */
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #ffffff; /* 2px white border around buttons */
+    margin: 5px 0; /* Space between buttons */
+}
+
+#donate-btn:hover, #lawn-sign-btn:hover {
+    background-color: #2c6d21; /* Slightly darker on hover */
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3f8e2a; /* Background color for the popup */
+    color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ffffff; /* 2px white border */
+    z-index: 30;
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.popup-content {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#copy-email {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#copy-email:hover {
+    color: #c7e0b0; /* Lighter shade on hover */
+}
