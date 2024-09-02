@@ -205,6 +205,7 @@ body::before {
 .popup-content {
     position: relative;
     color: #ffffff; /* Ensure all text inside popup is white */
+    padding: 20px;
 }
 
 .popup-content a {
