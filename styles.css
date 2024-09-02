@@ -208,7 +208,7 @@ body::before {
     text-align: left; /* Left justify the text */
 }
 .popup .popup-text {
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 500 !important; /* Force Roboto Medium */
     color: #ffffff;
     line-height: 1.6;
@@ -228,7 +228,7 @@ body::before {
 
 /* Popup Text Style */
 .popup-text {
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 500 !important; /* Roboto Medium */
     color: #ffffff; /* Ensure the text color is white */
     line-height: 1.6; /* Line height for readability */
