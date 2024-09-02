@@ -158,10 +158,6 @@ body::before {
     text-align: center;
     padding: 10px 0; /* Added some padding for better spacing */
     border: 1px solid #ffffff; /* White border on the floating banner */
-    display: flex;
-    flex-direction: column; /* Align text and buttons vertically */
-    justify-content: center;
-    align-items: center;
     z-index: 20;
 }
 
@@ -171,6 +167,12 @@ body::before {
     margin-bottom: 10px; /* Space between the text and buttons */
 }
 
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons within the container */
+    gap: 10px; /* Space between the buttons */
+}
+
 #donate-btn, #lawn-sign-btn {
     background-color: #3f8e2a; /* Updated button color */
     color: #ffffff;
@@ -178,7 +180,6 @@ body::before {
     font-weight: 700;
     cursor: pointer;
     border: 2px solid #ffffff; /* 2px white border around buttons */
-    margin: 5px 0; /* Space between buttons */
 }
 
 #donate-btn:hover, #lawn-sign-btn:hover {
@@ -220,3 +221,4 @@ body::before {
 #copy-email:hover {
     color: #c7e0b0; /* Lighter shade on hover */
 }
+
