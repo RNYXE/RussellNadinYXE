@@ -226,6 +226,7 @@ body::before {
 .popup-content a {
     color: #ffffff; /* Ensure links are also white */
     text-decoration: underline; /* Keep links underlined */
+     margin-bottom: 0;
 }
 
 /* Popup Text Style */
@@ -259,8 +260,10 @@ body::before {
     cursor: pointer;
     text-decoration: underline;
     color: #ffffff; /* Ensure the email text is white */
+     margin-bottom: 0;
 }
 
 #copy-email:hover {
     color: #c7e0b0; /* Lighter shade on hover */
+     margin-bottom: 0;
 }
