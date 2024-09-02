@@ -228,37 +228,38 @@
 
 
 
-    
+     <script>   
 function showPopup(popupId) {
     document.getElementById(popupId).style.display = 'block';
 }
+    </script>
 
-
-    
+    <script>    
 function closePopup(popupId) {
     document.getElementById(popupId).style.display = 'none';
 }
+    </script>
 
-
-    
+     <script>   
 function copyEmail() {
     const email = 'russellnadin@gmail.com';
     navigator.clipboard.writeText(email).then(() => {
         alert('Email address copied to clipboard!');
     });
 }
+    </script>
 
-
-    
+    <script>    
 document.getElementById('donate-btn').addEventListener('click', function() {
     showPopup('donate-popup');
 });
-
+            </script> 
+    <script>
 document.getElementById('lawn-sign-btn').addEventListener('click', function() {
     showPopup('lawn-sign-popup');
 });
 
-  
+      </script>
 </body>
 
 </html>
