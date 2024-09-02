@@ -207,6 +207,13 @@ body::before {
     width: 350px; /* Adjust width as needed */
     text-align: left; /* Left justify the text */
 }
+.popup .popup-text {
+    font-size: 14pt;
+    font-weight: 500 !important; /* Force Roboto Medium */
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
 
 .popup-content {
     position: relative;
