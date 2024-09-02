@@ -197,9 +197,8 @@ body::before {
     background-color: #3f8e2a; /* Background color for the popup */
     color: #ffffff; /* Set text color to white */
     padding: 5px;
-    border: 2px solid #ffffff; /* 2px white border */
     z-index: 30;
-    width: 300px; /* Adjust width as needed */
+    width: 350px; /* Adjust width as needed */
     text-align: left; /* Left justify the text */
 }
 
@@ -234,7 +233,8 @@ body::before {
     padding: 5px 10px; /* Adds some padding to make it look like a button */
     color: #ffffff; /* Ensure text color is white */
     background-color: transparent; /* Ensure background is transparent */
-    margin: 10px;
+    margin: 0; /* Remove margin to avoid unwanted spacing */
+    box-sizing: border-box; /* Ensure padding and border are included in the button's size */
 }
 
 #copy-email {
