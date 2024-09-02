@@ -205,7 +205,7 @@ body::before {
     padding: 5px;
     z-index: 30;
     width: 350px; /* Adjust width as needed */
-    text-align: left; /* Left justify the text */
+    text-align: center; /* Left justify the text */
 }
 .popup .popup-text {
     font-size: 14pt;
