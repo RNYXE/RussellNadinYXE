@@ -234,7 +234,7 @@ body::before {
     padding: 5px 5px; /* Adds some padding to make it look like a button */
     color: #ffffff; /* Ensure text color is white */
     background-color: transparent; /* Ensure background is transparent */
-    margin: 10px;
+    margin: 5px;
 }
 
 #copy-email {
