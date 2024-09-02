@@ -41,7 +41,7 @@ header h1 {
     margin: 0;
     font-size: 27pt; /* 5pt larger than the 24pt h1 in content */
     font-weight: 700;
-    color: #2f4f2f; /* Dark leaf green color */
+    color: #3f8e2a; /* Dark leaf green color */
     margin-bottom: 10px; /* Creates the 10px gap between text and the image */
 }
 
@@ -77,7 +77,7 @@ body::before {
 h1 {
     font-size: 24pt;
     font-weight: 700; /* Roboto Bold */
-    color: #2f4f2f; /* Dark leaf green */
+    color: #3f8e2a; /* Dark leaf green */
     padding-top: 20px;
 }
 li {
@@ -100,7 +100,7 @@ strong {
     padding-bottom: 20px; /* Adds 20px of padding below the <strong> element */
     font-size: 14pt; /* Match the font size of the <p> element */
     font-weight: bold; /* Match the font weight of the <h1> element */
-    color: #2f4f2f; /* If you want the same color as <h1> */
+    color: #3f8e2a; /* If you want the same color as <h1> */
 }
 
 img {
@@ -208,12 +208,13 @@ body::before {
     text-align: left; /* Left justify the text */
 }
 .popup .popup-text {
-    font-size: 13pt;
+    font-size: 14pt;
     font-weight: 500 !important; /* Force Roboto Medium */
     color: #ffffff;
     line-height: 1.6;
     margin: 10px;
-    padding: 20px;
+    padding: 20px 10px 10px 10px;
+
 }
 
 .popup-content {
@@ -229,12 +230,13 @@ body::before {
 
 /* Popup Text Style */
 .popup-text {
-    font-size: 13pt;
+    font-size: 14pt;
     font-weight: 500 !important; /* Roboto Medium */
     color: #ffffff; /* Ensure the text color is white */
     line-height: 1.6; /* Line height for readability */
     margin: 10px;
-    padding: 20px;
+   padding: 20px 10px 10px 10px;
+
 }
 
 
