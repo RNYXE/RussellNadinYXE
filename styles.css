@@ -64,6 +64,7 @@ body::before {
     max-width: 350px;
     margin: 0 auto;
     padding: 10px;
+    padding-bottom: 200px;
 }
 .content {
     width: 350px; /* Ensures the container is 350px wide */
@@ -214,12 +215,12 @@ body::before {
 
 .close {
     position: absolute;
-    top: 20px; /* Adds 20px space from the top */
-    right: 20px; /* Adds 20px space from the right */
+    top: 5px; /* Adds 20px space from the top */
+    right: 5px; /* Adds 20px space from the right */
     cursor: pointer;
     font-weight: bold;
     border: 1px solid #ffffff; /* 1px white border to make it obvious as a button */
-    padding: 5px 10px; /* Adds some padding to make it look like a button */
+    padding: 10px 10px; /* Adds some padding to make it look like a button */
     color: #ffffff; /* Ensure text color is white */
     background-color: transparent; /* Ensure background is transparent */
 }
