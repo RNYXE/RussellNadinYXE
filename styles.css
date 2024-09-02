@@ -212,7 +212,7 @@ body::before {
     font-weight: 500 !important; /* Force Roboto Medium */
     color: #ffffff;
     line-height: 1.6;
-    margin: 10px 20px 20px 10px;
+    margin: 10px 30px 10px 10px;
 }
 
 .popup-content {
@@ -232,7 +232,7 @@ body::before {
     font-weight: 500 !important; /* Roboto Medium */
     color: #ffffff; /* Ensure the text color is white */
     line-height: 1.6; /* Line height for readability */
-    margin: 10px 20px 20px 10px;
+    margin: 10px 30px 10px 10px;
 }
 
 
