@@ -213,6 +213,16 @@ body::before {
     text-decoration: underline; /* Keep links underlined */
 }
 
+/* Popup Text Style */
+.popup-text {
+    font-size: 14pt; /* Define the font size specifically for the popup */
+    font-weight: 500; /* Set the font weight as needed */
+    color: #ffffff; /* Ensure the text color is white */
+    line-height: 1.6; /* Line height for readability */
+    margin-bottom: 10px; /* Adjust space between paragraphs */
+}
+
+
 .close {
     position: absolute;
     top: 5px; /* Adds 20px space from the top */
