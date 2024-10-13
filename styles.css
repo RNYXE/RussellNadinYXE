@@ -67,7 +67,7 @@ body::before {
     padding-bottom: 200px;
 }
 .content {
-    width: 350px; /* Ensures the container is 350px wide */
+    max-width: 340px; /* Ensures the container is 340px wide */
     margin: 0 auto; /* Centers the container on the page */
     text-align: left; /* Ensures text is aligned to the left */
 }
@@ -77,13 +77,17 @@ h1 {
     font-weight: 700; /* Roboto Bold */
     color: #3f8e2a; /* Dark leaf green */
     padding-top: 20px;
+    text-align: center;
 }
+
 li {
+    list-style-position: inside;
     font-size: 14pt;
     font-weight: 500; /* Roboto Medium */
     color: #000000; /* Black text */
     line-height: 1.6; /* Ensures good readability */
     margin-bottom: 20px; /* Adds space after each paragraph */
+    padding-left: 10px;
 }
 p {
     font-size: 14pt;
