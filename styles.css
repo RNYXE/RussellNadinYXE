@@ -109,15 +109,6 @@ img {
     background-color: #ffffff; /* Ensures the padding area around the image is white */
 }
 
-/* Embedded YouTube Video */
-.iframe {
- display: block;
-    width: 340px;
-    height: auto; 
-    margin: 0 auto; 
-    background-color: #ffffff; /* Ensures the padding area around the image is white */
-}
-
 a {
     text-decoration: underline;
     color: #2f4f2f; /* Dark leaf green */
