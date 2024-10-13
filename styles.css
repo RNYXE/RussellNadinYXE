@@ -152,13 +152,15 @@ body::before {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 350px;
+    width: 350px;
+    max-width: 100%;
     background-color: #fe9500; /* Updated background color */
     color: #ffffff;
     text-align: center;
     padding: 10px 0; /* Added some padding for better spacing */
     border: 1px solid #ffffff; /* White border on the floating banner */
     z-index: 20;
+    box-sizing: border-box;
 }
 
 #donate-text {
