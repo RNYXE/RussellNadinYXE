@@ -58,6 +58,12 @@
     Council must pressure the province to fulfill its responsibilities of housing and social services for Saskatoon citizens, properly consult residents, and follow up with shelters to meet our expectations.</p>
     <p>It’s time ALL members of council close the distance between themselves and Saskatoon’s unhoused people.</p>
   <iframe width="315" height="560" src="https://www.youtube.com/embed/YyY9IFOYqsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Click on the images below to zoom.</p>
+<img class="infographic" src="CNSInfografic1.png" alt="Infographic description"><br>
+<img class="infographic" src="CNSInfografic2.png" alt="Infographic description"><br>
+<img class="infographic" src="CNSInfografic3.png" alt="Infographic description"><br>
+<img class="infographic" src="CNSInfografic4.png" alt="Infographic description"><br>
+<img class="infographic" src="CNSInfografic5.png" alt="Infographic description"><br>
 
               <p>I have toured and talked with Saskatoon’s shelters and many social outreach organizations with the goal of understanding the processes and supporting or improving if possible.<br>
     I will continue to patrol Saskatoon’s streets with Saskatoon Sage Clan, and be physically present and active where unhoused folk need assistance.</p>
@@ -266,8 +272,13 @@ document.getElementById('donate-btn').addEventListener('click', function() {
 document.getElementById('lawn-sign-btn').addEventListener('click', function() {
     showPopup('lawn-sign-popup');
 });
-
       </script>
+<script>    document.querySelectorAll('.infographic').forEach(function(image) {
+    image.addEventListener('click', function() {
+        window.open(this.src, '_blank'); /* Open image in a new tab */
+    });
+});
+</script>
 </body>
 
 </html>
