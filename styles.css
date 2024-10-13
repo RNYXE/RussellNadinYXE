@@ -110,8 +110,12 @@ img {
 }
 
 /* Embedded YouTube Video */
-.video-embed {
-    margin: 20px 0;
+.iframe {
+ display: block;
+    width: 340px;
+    height: auto; 
+    margin: 0 auto; 
+    background-color: #ffffff; /* Ensures the padding area around the image is white */
 }
 
 a {
