@@ -1,0 +1,7 @@
+iframe {
+    display: block;      /* Ensures the iframe behaves like a block-level element */
+    width: 100%;         /* Set to 100% of its parent container, or you can specify a fixed width */
+    height: 500px;       /* You can adjust the height as needed */
+    margin: 0 auto;      /* Centers the iframe horizontally */
+    border: none;        /* Optional: Removes the default border */
+}
