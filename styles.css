@@ -113,15 +113,6 @@ img {
     background-color: #ffffff; /* Ensures the padding area around the image is white */
 }
 
-.infographic {
-    width: 75%; /* Set to 75% of the original size */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-    margin-left: auto;
-    margin-right: auto; /* Center the image */
-    cursor: pointer; /* Show pointer to indicate clickable */
-}
-
 /* Embedded YouTube Video */
 .video-embed {
     margin: 20px 0;
