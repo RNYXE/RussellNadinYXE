@@ -159,6 +159,7 @@ body::before {
     padding: 10px 0; /* Added some padding for better spacing */
     border: 1px solid #ffffff; /* White border on the floating banner */
     z-index: 20;
+    box-sizing: border-box;
 }
 
 #donate-text {
