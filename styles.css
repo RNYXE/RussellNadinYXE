@@ -152,8 +152,7 @@ body::before {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 350px;
-    max-width: 100%;
+    max-width: 350px;
     background-color: #fe9500; /* Updated background color */
     color: #ffffff;
     text-align: center;
