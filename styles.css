@@ -77,6 +77,7 @@ h1 {
     font-weight: 700; /* Roboto Bold */
     color: #3f8e2a; /* Dark leaf green */
     padding-top: 20px;
+     padding-bottom: 20px;
     text-align: center;
 }
 
@@ -86,7 +87,7 @@ li {
     font-weight: 500; /* Roboto Medium */
     color: #000000; /* Black text */
     line-height: 1.6; /* Ensures good readability */
-    margin-bottom: 20px; /* Adds space after each paragraph */
+    margin-bottom: 10px; /* Adds space after each paragraph */
     padding-left: 10px;
 }
 p {
@@ -98,7 +99,6 @@ p {
 }
 strong {
     display: inline-block; /* Allows padding to work properly */
-    padding-top: 20px; /* Adds 20px of padding above the <strong> element */
     padding-bottom: 20px; /* Adds 20px of padding below the <strong> element */
     font-size: 14pt; /* Match the font size of the <p> element */
     font-weight: bold; /* Match the font weight of the <h1> element */
