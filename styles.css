@@ -72,8 +72,6 @@ body::before {
     text-align: left; /* Ensures text is aligned to the left */
 }
 
-
-
 h1 {
     font-size: 24pt;
     font-weight: 700; /* Roboto Bold */
@@ -117,7 +115,6 @@ img {
 .video-embed {
     margin: 20px 0;
 }
-
 
 a {
     text-decoration: underline;
@@ -213,7 +210,6 @@ body::before {
     line-height: 1.6;
     margin: 10px 0px 0px 0px;
     padding: 10px;
-
 }
 
 .popup-content {
@@ -236,9 +232,7 @@ body::before {
     line-height: 1.6; /* Line height for readability */
     margin: 10px 0px 0px 0px;
    padding: 10px;
-
 }
-
 
 .close {
     position: absolute;
