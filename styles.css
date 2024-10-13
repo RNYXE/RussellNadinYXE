@@ -8,7 +8,10 @@
     box-sizing: border-box;
 }
 
-body {
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #000000;
@@ -45,6 +48,35 @@ header h1 {
     margin-bottom: 10px; /* Creates the 10px gap between text and the image */
 }
 
+/* Floating Donate Banner with Vertically Centered Button */
+#donate-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    max-width: 100%;
+    background-color: #fe9500; /* Updated background color */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0; /* Added some padding for better spacing */
+    border: 1px solid #ffffff; /* White border on the floating banner */
+    z-index: 20;
+    box-sizing: border-box;
+}
+/* Post Content */
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px 0;
+    padding-bottom: 200px;
+}
+.content {
+    max-width: 340px; /* Ensures the container is 340px wide */
+    margin: 0 auto; /* Centers the container on the page */
+    text-align: left; /* Ensures text is aligned to the left */
+}
+
 /* Background Scaling */
 body::before {
     content: "";
@@ -57,19 +89,6 @@ body::before {
     z-index: -1;
     background-size: cover;
     background-attachment: fixed;
-}
-
-/* Post Content */
-.container {
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 10px 0;
-    padding-bottom: 200px;
-}
-.content {
-    max-width: 340px; /* Ensures the container is 340px wide */
-    margin: 0 auto; /* Centers the container on the page */
-    text-align: left; /* Ensures text is aligned to the left */
 }
 
 h1 {
@@ -146,22 +165,7 @@ body::before {
     text-decoration: none; /* Optional: Removes underline on hover */
 }
 
-/* Floating Donate Banner with Vertically Centered Button */
-#donate-container {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 350px;
-    max-width: 100%;
-    background-color: #fe9500; /* Updated background color */
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0; /* Added some padding for better spacing */
-    border: 1px solid #ffffff; /* White border on the floating banner */
-    z-index: 20;
-    box-sizing: border-box;
-}
+
 
 #donate-text {
     font-size: 24px; /* Adjust the size as needed */
