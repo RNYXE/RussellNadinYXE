@@ -25,8 +25,22 @@
       <img src="Header.jpg" alt="Russell Nadin for Ward 1 Council" />
 
 </header>
-
-
+    
+<script>
+window.onload = function() {
+  document.getElementById('vote-popup').style.display = 'block';
+};
+</script>
+    
+<div id="vote-popup" class="popup">
+  <div class="vote-popup-content">
+    <span class="close" onclick="closePopup('vote-popup')">CLOSE</span>
+    <p class="vote-popup-text">Vote November 1–7, and on November 13.</p>
+     <p class="vote-popup-text"><a href="https://www.saskatoon.ca/city-hall/elections-saskatoon/information-voters/voting-options">Voting dates and locations</a></p>
+      <p class="vote-popup-text"><a href="https://www.saskatoon.ca/city-hall/elections-saskatoon/information-voters/where-do-i-vote">Find my poll</a></p>
+ 
+  </div>
+</div>
     <!-- Main Content Container -->
     <div class="container">
         <div class="content">
