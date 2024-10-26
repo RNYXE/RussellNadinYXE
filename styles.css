@@ -47,6 +47,30 @@ header h1 {
     color: #3f8e2a; /* Dark leaf green color */
     margin-bottom: 10px; /* Creates the 10px gap between text and the image */
 }
+/* Styles specific to the vote-popup */
+#vote-popup {
+    background-color: #fe9500; /* Change background color to #fe9500 */
+    color: #000000; /* Set text color to black */
+}
+
+/* Specific text styles inside vote-popup */
+#vote-popup .vote-popup-text {
+    font-size: 27pt; /* Set font size to 27pt */
+    font-weight: 700 !important; /* Set font weight to 700 */
+    color: #000000; /* Ensure text is black */
+    line-height: 1.6; /* Line height for readability */
+}
+
+/* Ensure all links inside vote-popup are black */
+#vote-popup .vote-popup-content a {
+    color: #000000; /* Set link text color to black */
+}
+
+/* Specific styling for the vote-popup content */
+#vote-popup .vote-popup-content {
+    padding: 15px;
+    color: #000000; /* Ensure content text inside vote-popup is black */
+}
 
 /* Floating Donate Banner with Vertically Centered Button */
 #donate-container {
