@@ -68,7 +68,10 @@ header h1 {
 
 /* Specific styling for the vote-popup content */
 #vote-popup .vote-popup-content {
-    padding: 15px;
+       padding-top: 20px; /* This will override the top padding */
+    padding-right: 15px; /* Keeps the original right padding */
+    padding-bottom: 15px; /* Keeps the original bottom padding */
+    padding-left: 15px; /* Keeps the original left padding */
     color: #000000; /* Ensure content text inside vote-popup is black */
 }
 #vote-popup .close {
