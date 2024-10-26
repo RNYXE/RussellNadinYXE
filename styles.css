@@ -71,6 +71,9 @@ header h1 {
     padding: 15px;
     color: #000000; /* Ensure content text inside vote-popup is black */
 }
+#vote-popup .close {
+    background-color: #3f8e2a; /* Updated background color for vote-popup close button */
+}
 
 /* Floating Donate Banner with Vertically Centered Button */
 #donate-container {
